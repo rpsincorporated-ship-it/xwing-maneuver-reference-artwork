@@ -1,0 +1,115 @@
+X-WING REFERENCE ARTWORK DOWNLOAD CHECKLIST
+============================================
+
+Repository folders
+------------------
+images/maneuvers/1.0/
+images/maneuvers/2.0/
+images/dials/1.0/
+images/dials/2.0/
+images/tokens/1.0/
+images/tokens/2.0/
+images/ship-tokens/1.0/
+images/ship-tokens/2.0/
+
+FIRST EDITION (1.0) MISSING MANEUVER FILES
+------------------------------------------
+Save these files in images/maneuvers/1.0/:
+
+xwing-1.0-auzituck-gunship-maneuver.png
+xwing-1.0-c-roc-cruiser-maneuver.png
+xwing-1.0-cr90-corvette-fore-maneuver.png
+xwing-1.0-cr90-corvette-aft-maneuver.png
+xwing-1.0-gozanti-class-cruiser-maneuver.png
+xwing-1.0-gr-75-medium-transport-maneuver.png
+xwing-1.0-raider-class-corvette-fore-maneuver.png
+xwing-1.0-raider-class-corvette-aft-maneuver.png
+xwing-1.0-scurrg-h-6-bomber-maneuver.png
+xwing-1.0-tie-aggressor-maneuver.png
+xwing-1.0-tie-reaper-maneuver.png
+xwing-1.0-upsilon-class-shuttle-maneuver.png
+
+SECOND EDITION (2.0) MANEUVER FILES
+-----------------------------------
+Save one file per unique ship type in images/maneuvers/2.0/ using:
+
+xwing-2.0-<ship-slug>-maneuver.png
+
+Examples:
+xwing-2.0-t-65-x-wing-maneuver.png
+xwing-2.0-tie-ln-fighter-maneuver.png
+xwing-2.0-rz-2-a-wing-maneuver.png
+
+MANEUVER DIAL FILES
+-------------------
+Save one physical dial image per ship type. Keep dials separate from maneuver
+charts. Use these folders and filename patterns:
+
+images/dials/1.0/xwing-1.0-<ship-slug>-dial.png
+images/dials/2.0/xwing-2.0-<ship-slug>-dial.png
+
+For split huge ships, use one dial per physical ship, not separate Fore/Aft
+dials.
+
+PILOT AND SHIP CARDBOARD TOKENS
+-------------------------------
+Save ship cardboard tokens in:
+
+images/ship-tokens/1.0/xwing-1.0-<ship-slug>-ship-token.png
+images/ship-tokens/2.0/xwing-2.0-<ship-slug>-ship-token.png
+
+Save named pilot cardboard tokens in:
+
+images/ship-tokens/1.0/xwing-1.0-<pilot-slug>-pilot-token.png
+images/ship-tokens/2.0/xwing-2.0-<pilot-slug>-pilot-token.png
+
+Huge ship section tokens should remain separate:
+
+xwing-1.0-cr90-corvette-fore-ship-token.png
+xwing-1.0-cr90-corvette-aft-ship-token.png
+xwing-1.0-raider-class-corvette-fore-ship-token.png
+xwing-1.0-raider-class-corvette-aft-ship-token.png
+
+STATUS, ACTION, AND GAME TOKENS
+-------------------------------
+Save First Edition files in images/tokens/1.0/ and Second Edition files in
+images/tokens/2.0/. Use:
+
+xwing-1.0-<token-slug>.png
+xwing-2.0-<token-slug>.png
+
+Artwork still needed includes:
+
+Focus
+Evade
+Target Lock
+Stress
+Shield
+Weapons Disabled
+Ion
+Tractor Beam / Tractor
+Jam
+Cloak
+Reinforce
+Coordinate
+Energy
+Charge
+Force
+Calculate
+Strain
+Deplete
+Disarm
+Boost
+Barrel Roll
+SLAM
+Reload
+Bomb and device tokens
+Gas cloud and debris tokens
+Epic and huge-ship markers
+
+FILE NAMING RULES
+-----------------
+Use lowercase filenames, replace spaces with hyphens, and keep edition numbers
+in every filename. Keep First Edition and Second Edition artwork in separate
+folders. Do not combine maneuver charts, printed dials, ship tokens, pilot
+tokens, and status tokens in the same folder.
