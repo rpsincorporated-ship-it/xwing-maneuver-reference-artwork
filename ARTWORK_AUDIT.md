@@ -42,36 +42,63 @@ For split huge ships, store one physical dial image per ship type, not separate 
 
 ## Token images
 
-The repository currently has 12 upstream token/reference images: bomb-token sheets, debris cloud, ion, reload/jam, and tractor beam.
+The repository currently has 12 upstream token/reference images: bomb-token
+sheets, debris cloud, ion, reload/jam, and tractor beam. These are reference
+images and do not cover the complete token set for either edition.
 
-The following commonly used X-Wing token/action images still need artwork files or a deliberately designed original icon set:
+### First Edition token and marker artwork still needed
 
 - Focus
 - Evade
-- Target Lock
+- Blue Target Lock and Red Target Lock
 - Stress
 - Shield
 - Weapons Disabled
+- Ion (standalone token; the current IonToken image is a reference image)
+- Tractor Beam (standalone token; the current image is a reference image)
+- Jam (standalone token; the current image is part of a reference sheet)
+- Cloak
+- Reinforce
+- Coordinate
 - Energy
 - Ordnance
-- Charge
-- Force
+- Charge and Force markers where used by First Edition epic or card content
+- Bomb and obstacle token sheets beyond the currently mirrored files
+
+### Second Edition token and marker artwork still needed
+
+- Focus
+- Evade
+- Lock
+- Stress
+- Shield
 - Calculate
+- Force
+- Charge
+- Ion
+- Tractor
+- Jam
+- Strain
+- Deplete
+- Disarm
+- Cloak
 - Reinforce
 - Coordinate
 - Boost
 - Barrel Roll
-- Cloak
 - SLAM
-- Tractor Beam standalone token
-- Jam standalone token
-- Ion standalone token
-- Strain
-- Deplete
-- Disarm
-- Blue/green/red target-lock or charge states, if tracked separately
+- Reload
+- Bomb and device tokens
+- Gas cloud, debris cloud, and other obstacle tokens
+- Energy and epic/huge-ship markers where used by conversion or epic content
 
-The current app can continue using its text/icon fallback until these files are added.
+The current app’s edition-specific tracker rules distinguish the First Edition
+conditions `Stress`, `Ion`, `Tractor Beam`, `Weapons Disabled`, and `Jam` from
+the Second Edition conditions `Stress`, `Ion`, `Tractor`, `Jam`, `Disarm`,
+`Strain`, and `Deplete`. Artwork should preserve those edition labels rather
+than treating them as interchangeable files.
+
+The app can continue using its text/icon fallback until these files are added.
 
 ## Source note
 
