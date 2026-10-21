@@ -100,6 +100,19 @@ than treating them as interchangeable files.
 
 Second Edition token artwork is not yet present in `images/tokens/2.0/`. The app can continue using its text/icon fallback until these files are added.
 
+## Pilot and ship cardboard tokens
+
+Pilot/ship cardboard tokens are a separate category from maneuver charts,
+printed dials, and status tokens. They are currently missing for both editions:
+
+- First Edition pilot/ship cardboard tokens: add files under `images/ship-tokens/1.0/`.
+- Second Edition pilot/ship cardboard tokens: add files under `images/ship-tokens/2.0/`.
+
+The set should cover every ship type and every named pilot cardboard token that
+the corresponding edition's data source defines. Split Fore/Aft huge ships by
+their actual section cardboard, while keeping their maneuver dial artwork
+separate and shared as documented above.
+
 ## Source note
 
 Ship coverage was compared against the current `guidokessels/xwing-data` First Edition `data/ships.js` and the current `xwingtmg/xwing-data2` Second Edition `data/manifest.json`. Artwork remains subject to the upstream repository and Star Wars rights-holder terms.

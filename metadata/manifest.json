@@ -10,6 +10,10 @@
     "1.0": "images/tokens/1.0",
     "2.0": "images/tokens/2.0"
   },
+  "shipTokenDirectories": {
+    "1.0": "images/ship-tokens/1.0",
+    "2.0": "images/ship-tokens/2.0"
+  },
   "source": "https://github.com/guidokessels/xwing-data",
   "note": "Maneuver and token artwork remains subject to the original repository and rights holders."
 }
