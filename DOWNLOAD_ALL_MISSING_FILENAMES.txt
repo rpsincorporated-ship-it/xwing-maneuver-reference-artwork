@@ -1,0 +1,96 @@
+X-WING COMPLETE MISSING ARTWORK FILENAMES
+=========================================
+
+1.0 MANEUVER FILES
+-----------------
+xwing-1.0-auzituck-gunship-maneuver.png
+xwing-1.0-c-roc-cruiser-maneuver.png
+xwing-1.0-cr90-corvette-fore-maneuver.png
+xwing-1.0-cr90-corvette-aft-maneuver.png
+xwing-1.0-gozanti-class-cruiser-maneuver.png
+xwing-1.0-gr-75-medium-transport-maneuver.png
+xwing-1.0-raider-class-corvette-fore-maneuver.png
+xwing-1.0-raider-class-corvette-aft-maneuver.png
+xwing-1.0-scurrg-h-6-bomber-maneuver.png
+xwing-1.0-tie-aggressor-maneuver.png
+xwing-1.0-tie-reaper-maneuver.png
+xwing-1.0-upsilon-class-shuttle-maneuver.png
+
+2.0 MANEUVER FILES
+-----------------
+xwing-2.0-a-sf-01-b-wing-maneuver.png
+
+MANEUVER DIAL FILES (ALL SHIP TYPES)
+------------------------------------
+Create one per physical ship type in the matching edition folder:
+xwing-2.0-a-sf-01-b-wing-dial.png
+
+PILOT/SHIP CARDBOARD TOKEN FILES (2.0 SHIP TYPES)
+-----------------------------------------------
+xwing-2.0-a-sf-01-b-wing-ship-token.png
+
+HUGE SHIP SECTION TOKEN FILES (1.0)
+----------------------------------
+xwing-1.0-cr90-corvette-fore-ship-token.png
+xwing-1.0-cr90-corvette-aft-ship-token.png
+xwing-1.0-raider-class-corvette-fore-ship-token.png
+xwing-1.0-raider-class-corvette-aft-ship-token.png
+
+1.0 TOKEN FILES
+----------------
+xwing-1.0-focus.png
+xwing-1.0-evade.png
+xwing-1.0-blue-target-lock.png
+xwing-1.0-red-target-lock.png
+xwing-1.0-stress.png
+xwing-1.0-shield.png
+xwing-1.0-weapons-disabled.png
+xwing-1.0-ion.png
+xwing-1.0-tractor-beam.png
+xwing-1.0-jam.png
+xwing-1.0-cloak.png
+xwing-1.0-reinforce.png
+xwing-1.0-coordinate.png
+xwing-1.0-energy.png
+xwing-1.0-ordnance.png
+xwing-1.0-charge.png
+xwing-1.0-force.png
+xwing-1.0-epic-marker.png
+xwing-1.0-huge-ship-marker.png
+
+2.0 TOKEN FILES
+----------------
+xwing-2.0-focus.png
+xwing-2.0-evade.png
+xwing-2.0-lock.png
+xwing-2.0-stress.png
+xwing-2.0-shield.png
+xwing-2.0-calculate.png
+xwing-2.0-force.png
+xwing-2.0-charge.png
+xwing-2.0-ion.png
+xwing-2.0-tractor.png
+xwing-2.0-jam.png
+xwing-2.0-strain.png
+xwing-2.0-deplete.png
+xwing-2.0-disarm.png
+xwing-2.0-cloak.png
+xwing-2.0-reinforce.png
+xwing-2.0-coordinate.png
+xwing-2.0-boost.png
+xwing-2.0-barrel-roll.png
+xwing-2.0-slam.png
+xwing-2.0-reload.png
+xwing-2.0-bomb-device.png
+xwing-2.0-gas-cloud.png
+xwing-2.0-debris-cloud.png
+xwing-2.0-energy.png
+xwing-2.0-epic-marker.png
+xwing-2.0-huge-ship-marker.png
+
+NAMED PILOT TOKEN FILES
+-----------------------
+For every named pilot in the 1.0 and 2.0 data packs, create:
+xwing-1.0-<pilot-slug>-pilot-token.png
+xwing-2.0-<pilot-slug>-pilot-token.png
+Pilot names are data-driven and can change when a database pack is imported.
