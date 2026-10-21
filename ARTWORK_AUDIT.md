@@ -42,7 +42,7 @@ For split huge ships, store one physical dial image per ship type, not separate 
 
 ## Token images
 
-The repository currently has 12 upstream token/reference images: bomb-token
+The repository currently has 12 upstream First Edition token/reference images in `images/tokens/1.0/`: bomb-token
 sheets, debris cloud, ion, reload/jam, and tractor beam. These are reference
 images and do not cover the complete token set for either edition.
 
@@ -98,9 +98,10 @@ the Second Edition conditions `Stress`, `Ion`, `Tractor`, `Jam`, `Disarm`,
 `Strain`, and `Deplete`. Artwork should preserve those edition labels rather
 than treating them as interchangeable files.
 
-The app can continue using its text/icon fallback until these files are added.
+Second Edition token artwork is not yet present in `images/tokens/2.0/`. The app can continue using its text/icon fallback until these files are added.
 
 ## Source note
 
 Ship coverage was compared against the current `guidokessels/xwing-data` First Edition `data/ships.js` and the current `xwingtmg/xwing-data2` Second Edition `data/manifest.json`. Artwork remains subject to the upstream repository and Star Wars rights-holder terms.
+
 

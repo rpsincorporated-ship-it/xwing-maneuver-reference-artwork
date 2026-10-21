@@ -7,7 +7,8 @@ This repository collects the X-Wing reference artwork used by Star Wars: Tableto
 - `images/maneuvers/1.0/` — First Edition maneuver reference images, one file per ship type.
 - `images/dials/1.0/` — First Edition printed maneuver dial images. These are separate from maneuver reference charts.
 - `images/dials/2.0/` — Second Edition printed maneuver dial images. These are separate from maneuver reference charts.
-- `images/tokens/` — token and token-reference artwork available from the upstream X-Wing data repository.
+- `images/tokens/1.0/` — First Edition token and token-reference artwork available from the upstream X-Wing data repository.
+- `images/tokens/2.0/` — Second Edition token artwork. Keep this separate because several token names and designs changed between editions.
 - `metadata/manifest.json` — machine-readable locations for importers.
 
 The maneuver files use the naming convention `xwing-1.0-<ship-slug>-maneuver.png`.
@@ -18,4 +19,4 @@ The image files were obtained from the community [xwing-data repository](https:/
 
 ## Adding more artwork
 
-Place Second Edition maneuver images in `images/maneuvers/2.0/`, printed dial images in the matching `images/dials/<edition>/` folder, and additional token images in `images/tokens/`. Keep filenames lowercase, stable, and descriptive, and update `metadata/manifest.json` when adding a new edition.
+Place Second Edition maneuver images in `images/maneuvers/2.0/`, printed dial images in the matching `images/dials/<edition>/` folder, and token images in the matching `images/tokens/<edition>/` folder. Keep filenames lowercase, stable, and descriptive, and update `metadata/manifest.json` when adding a new edition.
