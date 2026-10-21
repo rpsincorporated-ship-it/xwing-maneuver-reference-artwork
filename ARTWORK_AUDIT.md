@@ -1,25 +1,17 @@
 # X-Wing artwork audit
 
-Audit date: 2026-10-21
+Audit date: 2026-10-21 (refreshed after faction-complete import)
 
 ## Maneuver and dial images
 
-The repository currently contains 44 First Edition maneuver images.
+The repository currently contains 55 First Edition maneuver images.
 
 ### First Edition ship maneuver images still missing
 
-- Auzituck Gunship — `xwing-1.0-auzituck-gunship-maneuver.png`
-- C-ROC Cruiser — `xwing-1.0-c-roc-cruiser-maneuver.png`
-- CR90 Corvette (Fore) — `xwing-1.0-cr90-corvette-fore-maneuver.png`
-- CR90 Corvette (Aft) — `xwing-1.0-cr90-corvette-aft-maneuver.png`
-- Gozanti-class Cruiser — `xwing-1.0-gozanti-class-cruiser-maneuver.png`
 - GR-75 Medium Transport — `xwing-1.0-gr-75-medium-transport-maneuver.png`
-- Raider-class Corvette (Fore) — `xwing-1.0-raider-class-corvette-fore-maneuver.png`
-- Raider-class Corvette (Aft) — `xwing-1.0-raider-class-corvette-aft-maneuver.png`
-- Scurrg H-6 Bomber — `xwing-1.0-scurrg-h-6-bomber-maneuver.png`
-- TIE Aggressor — `xwing-1.0-tie-aggressor-maneuver.png`
-- TIE Reaper — `xwing-1.0-tie-reaper-maneuver.png`
-- Upsilon-class Shuttle — `xwing-1.0-upsilon-class-shuttle-maneuver.png`
+
+The other previously missing First Edition maneuver files are now present in
+the repository, including the Resistance and First Order ship types.
 
 Fore/Aft records above should eventually share one dial image per physical huge ship. The app already groups those records for display.
 
@@ -99,6 +91,15 @@ the Second Edition conditions `Stress`, `Ion`, `Tractor`, `Jam`, `Disarm`,
 than treating them as interchangeable files.
 
 Second Edition token artwork is not yet present in `images/tokens/2.0/`. The app can continue using its text/icon fallback until these files are added.
+
+## Card image audit
+
+Card images are supplied by the imported X-Wing data pack and its image URLs;
+they are not stored in this maneuver-artwork repository. After importing all
+factions, the app should still verify every ship, pilot, and upgrade record for
+an image URL and report records without artwork. Missing card images cannot be
+determined from this repository alone because they depend on the exact data
+pack version and whether offline image download was selected during import.
 
 ## Pilot and ship cardboard tokens
 
