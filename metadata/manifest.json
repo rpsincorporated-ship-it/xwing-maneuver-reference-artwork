@@ -1,8 +1,13 @@
 {
   "name": "X-Wing Reference Artwork",
-  "editions": ["1.0"],
+  "editions": ["1.0", "2.0"],
   "maneuverDirectory": "images/maneuvers/1.0",
+  "dialDirectories": {
+    "1.0": "images/dials/1.0",
+    "2.0": "images/dials/2.0"
+  },
   "tokenDirectory": "images/tokens",
   "source": "https://github.com/guidokessels/xwing-data",
   "note": "Maneuver and token artwork remains subject to the original repository and rights holders."
 }
+
