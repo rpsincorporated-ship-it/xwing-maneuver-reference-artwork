@@ -343,3 +343,18 @@ For every named pilot in each imported edition data pack:
 xwing-1.0-<pilot-slug>-pilot-token.png
 xwing-2.0-<pilot-slug>-pilot-token.png
 Pilot names are data-driven and should be generated again after importing a new database.
+
+CATALOG AUDIT RESULTS
+---------------------
+No missing X-Wing 1.0 expansion definitions were found. The confirmed First
+Edition artwork gap is:
+
+xwing-1.0-gr-75-medium-transport-maneuver.png
+
+The X-Wing 2.0 product catalog now includes:
+
+Rogue-class Starfighter Expansion Pack (SWZ97)
+
+TIE Reaper and TIE/sk Striker are already present in the 2.0 catalog. The
+remaining 2.0 maneuver, dial, and cardboard-token filenames listed above are
+artwork files still needing to be collected, not missing expansion records.
