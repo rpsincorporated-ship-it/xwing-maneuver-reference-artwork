@@ -79,6 +79,7 @@ xwing-2.0-tie-ln-fighter-maneuver.png
 xwing-2.0-tie-ph-phantom-maneuver.png
 xwing-2.0-tie-rb-heavy-maneuver.png
 xwing-2.0-tie-reaper-maneuver.png
+xwing-2.0-tie-sk-striker-maneuver.png
 xwing-2.0-tie-sa-bomber-maneuver.png
 xwing-2.0-tie-se-bomber-maneuver.png
 xwing-2.0-tie-sf-fighter-maneuver.png
@@ -170,6 +171,7 @@ xwing-2.0-tie-ln-fighter-dial.png
 xwing-2.0-tie-ph-phantom-dial.png
 xwing-2.0-tie-rb-heavy-dial.png
 xwing-2.0-tie-reaper-dial.png
+xwing-2.0-tie-sk-striker-dial.png
 xwing-2.0-tie-sa-bomber-dial.png
 xwing-2.0-tie-se-bomber-dial.png
 xwing-2.0-tie-sf-fighter-dial.png
@@ -261,6 +263,7 @@ xwing-2.0-tie-ln-fighter-ship-token.png
 xwing-2.0-tie-ph-phantom-ship-token.png
 xwing-2.0-tie-rb-heavy-ship-token.png
 xwing-2.0-tie-reaper-ship-token.png
+xwing-2.0-tie-sk-striker-ship-token.png
 xwing-2.0-tie-sa-bomber-ship-token.png
 xwing-2.0-tie-se-bomber-ship-token.png
 xwing-2.0-tie-sf-fighter-ship-token.png
