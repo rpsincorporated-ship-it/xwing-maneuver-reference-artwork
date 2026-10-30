@@ -3,14 +3,9 @@ STILL MISSING X-WING SHIP MANEUVER IMAGES
 
 X-Wing 1.0
 ----------
+None
 
 X-Wing 2.0
 ----------
-xwing-2.0-c-roc-cruiser-maneuver.png
-xwing-2.0-cr90-corvette-maneuver.png
-xwing-2.0-gozanti-class-cruiser-maneuver.png
-xwing-2.0-gr-75-medium-transport-maneuver.png
-xwing-2.0-hmp-droid-gunship-maneuver.png
-xwing-2.0-raider-class-corvette-maneuver.png
-xwing-2.0-scavenged-yt-1300-maneuver.png
-xwing-2.0-syliure-class-hyperspace-ring-maneuver.png
+None
+
