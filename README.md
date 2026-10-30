@@ -1,24 +1,61 @@
-# X-Wing Reference Artwork
+# X-Wing Maneuver Reference Artwork
 
-This repository collects the X-Wing reference artwork used by Star Wars: Tabletop Commander.
+Printable maneuver reference artwork for **Star Wars: X-Wing Miniatures Game** First Edition (1.0) and Second Edition (2.0).
 
-## Contents
+Repository: https://github.com/rpsincorporated-ship-it/xwing-maneuver-reference-artwork
 
-- `images/maneuvers/1.0/` — First Edition maneuver reference images, one file per ship type.
-- `images/dials/1.0/` — First Edition printed maneuver dial images. These are separate from maneuver reference charts.
-- `images/dials/2.0/` — Second Edition printed maneuver dial images. These are separate from maneuver reference charts.
-- `images/tokens/1.0/` — First Edition token and token-reference artwork available from the upstream X-Wing data repository.
-- `images/tokens/2.0/` — Second Edition token artwork. Keep this separate because several token names and designs changed between editions.
-- `images/ship-tokens/1.0/` — First Edition pilot and ship cardboard token artwork.
-- `images/ship-tokens/2.0/` — Second Edition pilot and ship cardboard token artwork.
-- `metadata/manifest.json` — machine-readable locations for importers.
+## What is included
 
-The maneuver files use the naming convention `xwing-1.0-<ship-slug>-maneuver.png`.
+- First Edition ship maneuver references
+- Second Edition ship maneuver references
+- Huge-ship maneuver references where applicable
+- Separate edition folders and stable filenames
+- PNG artwork suitable for digital viewing and printing
+- Import-ready folder layout for compatible tabletop companion applications
 
-## Source and rights
+Maneuver dial images, tokens, ship cardboard, and card artwork are intentionally excluded from this repository. The Syliure-class hyperspace ring is excluded because it does not have a maneuver table.
 
-The image files were obtained from the community [xwing-data repository](https://github.com/guidokessels/xwing-data). Star Wars names, artwork, symbols, and game content remain the property of their respective rights holders. This repository is an unmodified reference-artwork mirror for personal and community tool use. Review the upstream repository license and rights notices before redistributing or publishing a public mirror.
+## Folder structure
 
-## Adding more artwork
+```text
+images/
+└─ maneuvers/
+   ├─ 1.0/
+   └─ 2.0/
+metadata/
+└─ manifest.json
+```
 
-Place Second Edition maneuver images in `images/maneuvers/2.0/`, printed dial images in the matching `images/dials/<edition>/` folder, status/token images in `images/tokens/<edition>/`, and pilot/ship cardboard images in `images/ship-tokens/<edition>/`. Keep filenames lowercase, stable, and descriptive, and update `metadata/manifest.json` when adding a new edition.
+## Filename format
+
+Files use lowercase, hyphen-separated names:
+
+```text
+xwing-1.0-tie-reaper-maneuver.png
+xwing-1.0-gozanti-class-cruiser-maneuver.png
+xwing-2.0-tie-reaper-maneuver.png
+xwing-2.0-hmp-droid-gunship-maneuver.png
+```
+
+Avoid spaces, apostrophes, parentheses, and special characters in new filenames.
+
+## Importing the artwork
+
+Applications that support GitHub maneuver imports should use:
+
+```text
+images/maneuvers/1.0/
+images/maneuvers/2.0/
+```
+
+PNG is preferred because it preserves maneuver colors and prints clearly. The repository contains visual references; structured maneuver values should be imported from the application's normal X-Wing data source.
+
+## Accuracy and edition notes
+
+Always confirm the edition before using a reference. First Edition huge ships may include energy changes associated with maneuvers. Ships with separate fore and aft sections have separate reference images where required.
+
+## Copyright and licensing
+
+This is a fan-created reference project and is not affiliated with or endorsed by Lucasfilm Ltd., Atomic Mass Games, Fantasy Flight Games, or any other rights holder.
+
+Star Wars names, game content, ship designs, artwork, and trademarks remain the property of their respective owners. Contributors must verify that they have permission to upload, print, or redistribute any artwork. Please document the source and license for any new files.
